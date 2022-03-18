@@ -1087,23 +1087,23 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN SEWABOT :\`\`\`
-➪ *1 Minggu :* _5.000_
-➪ *1 Bulan :* _10.000_
-➪ *Permanen :* _15.000_
+➪ *1 Minggu :* _10.000_
+➪ *1 Bulan :* _20.000_
+➪ *Permanen :* _30.000_
 
 ───────────────
-*_By DhaniGansOfficial_* :
+*_By Ragil Bot_* :
 ───────────────
 \`\`\`OPEN MURIDBOT :\`\`\`
-➪ *Murid biasa :* _20.000_
+➪ *Murid biasa :* _30.000_
 ➪ *Murid premium :* _50.000_
 
 \`\`\`OPEN BUAT SC :\`\`\`
 ➪ *Script Store :* _Hubungi owner_
 ➪ *Script Biasa :* _Hubungi owner_
 Untuk yang mau beli script / sc
-Bisa request jika minat silakan hubungi DhaniGansOfficial
-Nomor : https://wa.me/message/IMGMIAUAWC54J1`
+Bisa request jika minat silakan hubungi owner
+Nomor : https://wa.me/6283136890848`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -1112,10 +1112,10 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _Silakan scan qr di atas_
-• Dana : _Tidak tersedia_
+• Gopay : _081318910218_
+• Dana : _083136890848_
 • Ovo : _Tidak tesedia_
-• Pulsa : _Tidak tersedia_`
+• Pulsa : _083136890848_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
@@ -1126,7 +1126,7 @@ break
 //══════════[ FITUR DOWNLOAD ]══════════//
 /*Nyolong case ?
 kasih credit ajg / tambah in di tqtq
---> DhaniGans*/
+--> Ragil Bot*/
 
 case 'ytmp3':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
